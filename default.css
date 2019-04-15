@@ -127,5 +127,9 @@ h1{
   padding: 12px 20px;
 }
 
-
+.counter{
+  margin: 0 auto;
+  width: 200px;
+  padding: 10px 0px 0px 0px;
+}
 
