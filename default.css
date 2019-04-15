@@ -8,7 +8,7 @@
 body {
   background-image: url("images/blurry_back.jpeg");
   background-position: center;
-  background-size: cover;
+  background-size: stretch;
   background-color: antiquewhite;
 }
 
@@ -128,8 +128,6 @@ h1{
 }
 
 .counter{
-  margin: 0 auto;
-  width: 200px;
-  padding: 10px 0px 0px 0px;
+  
 }
 
