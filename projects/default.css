@@ -95,7 +95,6 @@ body{
 	cursor: pointer;
 	padding: 3px 20px 3px 20px;
 	background-color: #51B6A0;
-	box-shadow: 3px 3px 1px #479987;
 }
 
 .navItems0{
@@ -122,7 +121,6 @@ body{
 .dropdown:hover {
 	cursor: pointer;
 	background-color: #479987;
-	box-shadow: 3px 3px 1px #51B6A0;
 }
 
 #dropdown-content {
@@ -149,31 +147,24 @@ body{
 
 .navItems1:hover {
 	background-color: #479987;
-	box-shadow: 3px 3px 1px #51B6A0;
 } 
 .navItems2:hover {
 	background-color: #479987;
-	box-shadow: 3px 3px 1px #51B6A0;
 } 
 .navItems3:hover {
 	background-color: #479987;
-	box-shadow: 3px 3px 1px #51B6A0;
 } 
 .navItems4:hover {
 	background-color: #479987;
-	box-shadow: 3px 3px 1px #51B6A0;
 } 
 .navItems5:hover {
 	background-color: #479987;
-	box-shadow: 3px 3px 1px #51B6A0;
 } 
 .navItems6:hover {
 	background-color: #479987;
-	box-shadow: 3px 3px 1px #51B6A0;
 } 
 .navItems7:hover {
 	background-color: #479987;
-	box-shadow: 3px 3px 1px #51B6A0;
 }
 
 
