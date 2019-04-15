@@ -1,0 +1,68 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	text-decoration: none;
+}
+
+body {
+	background-image: url(../images/adobeAI.png);
+	background-repeat: space;
+	background-size: 50px 50px;
+}
+
+h{
+	color: orange;
+  	font-family: "Segoe UI",Arial,sans-serif;
+  	font-size: 50px;
+	text-align: center;
+	font-weight: 100;
+}
+
+.header{
+	display: flex;
+	justify-content: center;
+	width: 1200px;
+	background-color: #2F2F2F;
+	margin: 0 auto;
+	margin-top: 100px;
+	margin-bottom: 8px;
+	box-shadow: 0px 4px 1px #353535;
+}
+
+.container{
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.gridItems{
+	display: grid;
+	grid-template-columns: repeat(5, 180px);
+	grid-template-rows: 50px;
+	grid-gap: 20px;
+	justify-content: center;
+	background-color: #393939;
+}
+
+.gridItems > div {
+	background-color: #2F2F2F;
+	align-self: center;
+	padding: 3px 0px;
+	color: orange;
+	font-family: "Segoe UI",Arial,sans-serif;
+	font-size: 19px;
+	text-align: center;
+}
+
+.gridItems > div:hover{
+	cursor: pointer;
+	background-color: #353535;
+}
+
+
+
+
+
+
+
+
