@@ -48,7 +48,7 @@ const button1g4 = document.querySelector('.navItems4');
 
 const content4g1 = "<h> Week 4 </h>";
 const content4g2 = "<h> A10 </h>";
-const content4g3 = "<p> I created a <a href='Week_04/Writing%20Intensives%20Landing%20Page.html' class='link'> landing page </a> for all my writing intensives. </p>";
+const content4g3 = "<p> I created a <a href='Week_04/Writing%20Intensives%20Project%20Page.html' class='link'> landing page </a> for all my writing intensives. </p>";
 const content4g4 = "<h> A11 </h>";
 const content4g5 = "<p> I made a <a href='Week_04/Publishing%20Instructions.html' class='link'> guide </a> on how to publish your website online </p>";
 const content4g6 = "<h> A12 </h>";
