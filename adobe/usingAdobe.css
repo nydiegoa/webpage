@@ -1,0 +1,93 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	text-decoration: none;
+}
+
+body {
+
+}
+
+p{
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: lighter;
+}
+
+h{
+	color: orange;
+  	font-family: "Segoe UI",Arial,sans-serif;
+  	font-size: 50px;
+	text-align: center;
+	font-weight: 100;
+}
+
+.header{
+	display: flex;
+	justify-content: center;
+	max-width: 1200px;
+	min-width: 493px;
+	background-color: #2F2F2F;
+	margin: 0 auto;
+	margin-top: 100px;
+	margin-bottom: 8px;
+	box-shadow: 0px 4px 1px #353535;
+}
+
+.container{
+	max-width: 1200px;
+	min-width: 493px;
+	margin: 0 auto;
+}
+
+.gridItems{
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(190px, 200px) );
+	grid-template-rows: 50px;
+	grid-gap: 20px;
+	justify-content: space-around;
+	background-color: #393939;
+}
+
+.gridItems > div {
+	background-color: #2F2F2F;
+	align-self: center;
+	padding: 3px 0px;
+	color: orange;
+	font-family: "Segoe UI",Arial,sans-serif;
+	font-size: 19px;
+	text-align: center;
+}
+
+.gridItems > div:hover{
+	cursor: pointer;
+	background-color: #353535;
+}
+
+.gridInfo{
+	max-width: 1195px;
+	min-width: 493px;
+	display: grid;
+	padding: 10px 0px 0px 0px;
+	grid-template-columns: repeat(autofill, minmax(50px, 50px) ) ;
+}
+
+.infoHead{
+	grid-area: 1/2/1/6;
+	background-color: #393939;
+	color: white;
+}
+
+.video1{
+	grid-area: 3/2/4/8;
+	background-color: #393939;
+	color: white;
+}
+
+.info{
+	grid-area: 3/15/10/20;
+	background-color: #393939;
+	color: white;
+}
+
+
