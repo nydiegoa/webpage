@@ -74,9 +74,10 @@ h1{
 	max-width: 1195px;
 	min-width: 493px;
 	display: grid;
-	padding: 10px 0px 0px 0px;
-	grid-template-columns: repeat(20, 1fr);
+	padding: 10px 20px 0px 0px;
+	grid-template-columns: repeat(auto-fill, minmax(1fr, 1fr) );
 	grid-template-rows: repeat(14, 50px);
+	grid-gap: 1px;
 }
 
 .infoHead{
@@ -89,12 +90,14 @@ h1{
 }
 
 .video1{
+	min-width: 500px;
 	grid-area: 3/2/12/12;
 	background-color: #393939;
 	color: white;
 }
 
 .info{
+	min-width: 270px;
 	grid-area: 3/14/12/19;
 	background-color: #393939;
 	color: white;
