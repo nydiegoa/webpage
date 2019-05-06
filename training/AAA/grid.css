@@ -1,0 +1,34 @@
+@charset "utf-8";
+/* CSS Document */
+
+.container{
+	
+}
+
+.garden{
+	display: grid;
+	grid-template-columns: repeat( auto-fill, minmax(100px, 1fr) ); //
+/*	repeat, repeats the formula. auto-fit the browser will attempt to make the grid sizes fit. minmax(min, max) size of the grid*/
+	grid-gap: 10px;
+	padding: 10px 10px 10px 10px;
+	background-color: #B8B689;
+	border: 1px solid;
+	width: 1000px;
+	height: 500px;
+}
+
+.garden > div{
+	border: 1px solid;
+}
+
+.item1{
+	grid-area: 1/1/2/4
+}
+
+
+
+
+
+
+
+
