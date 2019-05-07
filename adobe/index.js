@@ -21,7 +21,7 @@ const bo3 = document.querySelector('.info');
 const c1 = '<iframe width="710" height="390" src="https://www.youtube.com/embed/bDYWUGCgKCI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
 const c2 = '<iframe width="710" height="390" src="https://www.youtube.com/embed/s7JwxPnYoOw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
 
-i1.addEventListener("click", e=> {bo1.innerHTML = c1;})
+i1.addEventListener("click", e=> {bo2.innerHTML = c1;})
 i2.addEventListener("click", e=> {bo2.innerHTML = c2;})
 
 
