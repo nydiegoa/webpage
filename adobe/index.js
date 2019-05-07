@@ -11,12 +11,17 @@ const i2 = document.querySelector('.item2');
 const i3 = document.querySelector('.item3');
 const i4 = document.querySelector('.item4');
 const i5 = document.querySelector('.item5');
+const i6 = document.querySelector('.left');
+const i7 = document.querySelector('.right');
 
 const bo1 = document.querySelector('.infoHead');
-const bo2 = document.querySelector('.video1');
+const bo2 = document.querySelector('.video');
 const bo3 = document.querySelector('.info');
 
-const c1 = "<h1> intro2 </h1>"
+const c1 = '<iframe width="710" height="390" src="https://www.youtube.com/embed/bDYWUGCgKCI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+const c2 = '<iframe width="710" height="390" src="https://www.youtube.com/embed/s7JwxPnYoOw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
 
-i2.addEventListener("click", e=> {bo1.innerHTML = c1;})
+i1.addEventListener("click", e=> {bo1.innerHTML = c1;})
+i2.addEventListener("click", e=> {bo2.innerHTML = c2;})
+
 

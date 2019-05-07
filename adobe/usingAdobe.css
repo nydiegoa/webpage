@@ -31,7 +31,7 @@ h1{
 	justify-content: center;
 	max-width: 1200px;
 	min-width: 493px;
-	background-color: #2F2F2F;
+	background-color: rgb(56, 56, 56);
 	margin: 0 auto;
 	margin-top: 100px;
 	margin-bottom: 8px;
@@ -54,18 +54,20 @@ h1{
 }
 
 .gridItems > div {
-	background-color: #2F2F2F;
+	background-color: rgb(31, 31, 31);
 	align-self: center;
 	padding: 3px 0px;
 	color: orange;
 	font-family: "Segoe UI",Arial,sans-serif;
 	font-size: 19px;
 	text-align: center;
+	transition: .3s;
 }
 
 .gridItems > div:hover{
+	border-radius: 10px 100px 10px 100px;
 	cursor: pointer;
-	background-color: #353535;
+	background-color: #242424;
 }
 
 .gridInfo{
@@ -79,6 +81,7 @@ h1{
 }
 
 .infoHead{
+	margin: 60px 360px 0 0;
 	align-self: center;
 	padding: 5px 0px;
 	height: 40px;
@@ -92,6 +95,7 @@ h1{
 
 .vcontainer{
 	min-width: 500px;
+	max-width: 725.47px;
 	grid-area: 3/2/12/12;
 	background-color: #393939;
 	color: white;
@@ -102,11 +106,13 @@ h1{
 
 .video{
 	margin: 0 auto;
-	margin-top: 20px;
+	margin-top: 10px;
+	margin-bottom: 2px;
 }
 
 .lr{
 	display: flex;
+	margin: 0 41% 0 41%;
 }
 
 .info{
@@ -114,6 +120,7 @@ h1{
 	grid-area: 3/14/12/19;
 	background-color: #393939;
 	color: white;
+	padding: 10px;
 }
 
 .left{
@@ -128,8 +135,8 @@ h1{
 }
 
 .left:hover{
-	box-shadow: 2px -2px 0 2px red inset;
-	-webkit-box-shadow: 4px -4px red inset;
+	box-shadow: 2px -2px 0 2px #a9a9a9 inset;
+	-webkit-box-shadow: 4px -4px #a9a9a9 inset;
 }
 
 .right{
@@ -145,6 +152,6 @@ h1{
 }
 
 .right:hover{
-	box-shadow: 2px -2px 0 2px red inset;
-	-webkit-box-shadow: 4px -4px red inset;
+	box-shadow: 2px -2px 0 2px #a9a9a9 inset;
+	-webkit-box-shadow: 4px -4px #a9a9a9 inset;
 }
