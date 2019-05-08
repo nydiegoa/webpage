@@ -95,6 +95,7 @@ h1{
   background-color: orange;
   border-radius: 10px 100px 10px 100px;
   box-shadow: 5px 8px 1px #ff7400;
+  transition: .3s;
 }
 
 .navbarLinks:hover{

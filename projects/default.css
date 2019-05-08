@@ -95,10 +95,12 @@ body{
 	cursor: pointer;
 	padding: 3px 20px 3px 20px;
 	background-color: #51B6A0;
+	transition: .3s;
 }
 
 .navItems0{
 	background-color: #51B6A0;
+	transition: .3s;
 }
 
 /*
@@ -138,6 +140,7 @@ body{
   padding: 12px 16px;
   text-decoration: none;
   display: block;
+  transition: .2s;
 }
 
 #dropdown-content .navItemsdrop:hover { background-color: #479987;}
@@ -219,6 +222,7 @@ body{
 	width: 190px;
 	margin: auto;
 	margin-top: 15px;
+	transition: .3s;
 }
 
 .home:hover {
